@@ -1,0 +1,31 @@
+{
+	"name": "@demoHibrido/root",
+	"version": "1.0.0",
+	"description": "",
+	"packageManager": "pnpm@7.11.0",
+	"engineStrict": true,
+	"engines": {
+		"pnpm": "7.11.0",
+		"node": ">=16"
+	},
+	"scripts": {
+		//"reactapp": "pnpm --filter react-app run dev",
+		"vueapp": "pnpm --filter vue-app run dev",
+	},
+	"keywords": [],
+	"author": "",
+	"license": "BSD-3-Clause",
+	"devDependencies": {
+		"@tsconfig/node16": "^1.0.3",
+		"@typescript-eslint/eslint-plugin": "^5.38.0",
+		"@typescript-eslint/parser": "^5.38.0",
+		"@vitest/coverage-c8": "^0.22.1",
+		"eslint-config-hexademo": "workspace:1.0.0",
+		"tsconfig": "workspace:1.0.0",
+		"typescript": "^4.8.3",
+		"vitest": "^0.22.1"
+	},
+	"dependencies": {
+		"npm-run-all": "^4.1.5"
+	}
+}
